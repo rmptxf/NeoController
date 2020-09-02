@@ -1,6 +1,6 @@
 > Work in progress
 
-The mobile app is built using the ionic framework **v5**.
+The mobile app is built using the Ionic framework **v5** with Angular as a front end.
 
 ![ScreenShots](https://github.com/rmptxf/NeoController/blob/master/assets/ionic-logo.png)
 
