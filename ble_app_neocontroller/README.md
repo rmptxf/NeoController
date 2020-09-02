@@ -15,4 +15,4 @@ The project is :
 * Uses the **SEGGER** toolchain.
 * Uses the **I2S** peripehral to drive the WS2812b RGB led.
 
-If this is your first time working with the nRF5_SDK, i do recommend following  my getting start guide [**here**](https://nrf5dev.com/tutorials/getting-started/).
+If this is your first time working with the nRF5_SDK, i do recommend following my [**getting started guide **](https://nrf5dev.com/tutorials/getting-started/).
