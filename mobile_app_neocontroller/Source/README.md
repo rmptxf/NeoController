@@ -15,5 +15,5 @@ Move your directory to this folder app and then install the npm dependencies usi
 ```sh
 $ cd NeoController/mobile_app_neocontroller/Source && npm install
 ```
-### Testing
-The app uses cordova, so you need a mobile phone to 
+### Development
+Head over to the ionic developping guide at **https://ionicframework.com/docs/developing/starting**.
