@@ -25,19 +25,24 @@ The project is :
 * Uses the **SEGGER** toolchain.
 * Uses the **I2S** peripehral to drive the WS2812b RGB led.
 
-If this is your first time working with the nRF5_SDK, I do recommend following my [**getting started guide**](https://nrf5dev.com/tutorials/getting-started/).
+If this is your first time working with the nRF5_SDK, I do recommend first checking my [**getting started guide**](https://nrf5dev.com/tutorials/getting-started/).
 
 ### Testing the application :
 
+<<<<<<< HEAD
+=======
+>**Note :** Make sure you do a full erase to your board SOC, before uploading the new compiled firmware.
+
+>>>>>>> 4566604b3423b09c7accc1fda6cffbaadd125484
 If you're using any of the Adafruit boards, make sure you head over to the [boards_files](https://github.com/rmptxf/NeoController/blob/master/boards_files) folder, and follow the included instruction.
 
-If you will be testing on **the Adafruit Feather nRF52840 Express (ADA40)**, you already have an on-board WS2812b ready to use.
+If you will be testing using the **Adafruit Feather nRF52840 Express (ADA40)**, you already have an on-board WS2812b ready to use.
 
 ![The Adafruit Feather nRF52840 Express](https://github.com/rmptxf/NeoController/blob/master/assets/Adafruit_Feather_nRF52840_Express.PNG)
 
 And it is already set in the firmware.
 
-If not, you'll need to get a WS2812b RGB led module, like [**this one**](https://www.sparkfun.com/products/13282) from **Sparfun**.
+If not, you'll need to get a WS2812b RGB led module, like [**this one**](https://www.sparkfun.com/products/13282) from **Sparfun**
 
 ![SparkFun RGB LED Breakout - WS2812B](https://github.com/rmptxf/NeoController/blob/master/assets/Ws2812B_PinsRev.jpg)
 
