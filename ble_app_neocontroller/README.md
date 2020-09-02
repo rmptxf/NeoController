@@ -32,6 +32,8 @@ If you will be testing on the The Adafruit Feather nRF52840 Express (ADA40), you
 ![The Adafruit Feather nRF52840 Express](https://github.com/rmptxf/NeoController/blob/master/assets/Adafruit_Feather_nRF52840_Express.PNG)
 And it is already set in the firmware.
 
-If not, you'll need to get a WS2812b RGB led module, like [**this one*](https://www.sparkfun.com/products/13282) from **Sparfun**.
+If not, you'll need to get a WS2812b RGB led module, like [**this one**](https://www.sparkfun.com/products/13282) from **Sparfun**.
+
 ![SparkFun RGB LED Breakout - WS2812B](https://github.com/rmptxf/NeoController/blob/master/assets/Ws2812B_PinsRev.jpg)
+
 > Make sure you use the **DI** pin for connecting it to you board.
