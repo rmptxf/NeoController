@@ -33,7 +33,7 @@ If this is your first time working with the nRF5_SDK, I do recommend first check
 
 If you're using any of the Adafruit boards, make sure you head over to the [boards_files](https://github.com/rmptxf/NeoController/blob/master/boards_files) folder, and follow the included instruction.
 
-If you will be testing on **the Adafruit Feather nRF52840 Express (ADA40)**, you already have an on-board WS2812b ready to use.
+If you will be testing using the **Adafruit Feather nRF52840 Express (ADA40)**, you already have an on-board WS2812b ready to use.
 
 ![The Adafruit Feather nRF52840 Express](https://github.com/rmptxf/NeoController/blob/master/assets/Adafruit_Feather_nRF52840_Express.PNG)
 
