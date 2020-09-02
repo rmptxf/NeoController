@@ -1,0 +1,7 @@
+{
+  "name": "NeoController",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

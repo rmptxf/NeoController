@@ -1,0 +1,56 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="center">{{ peripheral.name || 'Device' }}</ion-title>
+        <ion-buttons slot="end">
+            <ion-button color="danger" class="bold" stronge="true" (click)="disconnect()">Disconnect</ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="padding">
+
+    <div class="div-class" style.background={{rgb}}></div>
+
+    <ion-item>
+        <ion-range class="blod" min="0" max="255" color="danger" [(ngModel)]="r" (ionChange)="setRGBColor($event)">
+            <ion-label slot="start">R</ion-label>
+            <ion-label slot="end">{{r}}</ion-label>
+        </ion-range>
+    </ion-item>
+
+
+    <ion-item>
+        <ion-range class="blod" min="0" max="255" color="success" [(ngModel)]="g" (ionChange)="setRGBColor($event)">
+            <ion-label slot="start">G</ion-label>
+            <ion-label slot="end">{{g}}</ion-label>
+        </ion-range>
+    </ion-item>
+
+    <ion-item>
+        <ion-range class="blod" min="0" max="255" color="primary" [(ngModel)]="b" (ionChange)="setRGBColor($event)">
+            <ion-label slot="start">B</ion-label>
+            <ion-label slot="end">{{b}}</ion-label>
+        </ion-range>
+    </ion-item>
+
+
+    <ion-item>
+        <ion-label> Red :</ion-label>
+        <input [(ngModel)]="r" type="number" placeholder="Red" (ionChange)="setRGBColor($event)" />
+    </ion-item>
+
+    <ion-item>
+        <ion-label> Green :</ion-label>
+        <input [(ngModel)]="g" type="number" placeholder="Green" (ionChange)="setRGBColor($event)" />
+    </ion-item>
+
+    <ion-item>
+        <ion-label> Blue :</ion-label>
+        <input [(ngModel)]="b" type="number" placeholder="Blue" (ionChange)="setRGBColor($event)" />
+    </ion-item>
+
+</ion-content>
+
+<ion-footer>
+    <ion-button text="align" (click)="sendRGBdata()" expand="full" Color="success"> Update Pixel Color </ion-button>
+</ion-footer>

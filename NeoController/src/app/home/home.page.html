@@ -1,0 +1,20 @@
+<ion-header color="">
+    <ion-toolbar>
+        <ion-title stronge="true"> Devices </ion-title>
+        <ion-buttons slot="end">
+            <ion-button color="primary" stronge="true" (click)="blecheck()"> Scan </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content color="">
+
+    <div class="ion-padding">
+        <ion-list>
+            <ion-button color="secondary" expand="full" size="large" ion-item *ngFor="let device of devices" (click)="deviceSelected(device)">
+                <h2>{{ device.name || 'Unnamed' }}</h2>
+            </ion-button>
+        </ion-list>
+    </div>
+
+</ion-content>
