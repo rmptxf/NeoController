@@ -29,7 +29,7 @@ If this is your first time working with the nRF5_SDK, I do recommend following m
 
 ### Testing the application :
 
->**Note :** Make sure you do a full erase to your SOC before uploading the compiled firmware.
+>**Note :** Make sure you do a full erase to your SOC before uploading the new compiled firmware.
 
 If you're using any of the Adafruit boards, make sure you head over to the [boards_files](https://github.com/rmptxf/NeoController/blob/master/boards_files) folder, and follow the included instruction.
 
