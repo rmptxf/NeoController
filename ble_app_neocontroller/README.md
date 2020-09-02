@@ -29,6 +29,8 @@ If this is your first time working with the nRF5_SDK, I do recommend following m
 
 ### Testing the application :
 
+>**Note :**Make sure you do a full erase to your SOC before uploading the compiled firmware.
+
 If you're using any of the Adafruit boards, make sure you head over to the [boards_files](https://github.com/rmptxf/NeoController/blob/master/boards_files) folder, and follow the included instruction.
 
 If you will be testing on **the Adafruit Feather nRF52840 Express (ADA40)**, you already have an on-board WS2812b ready to use.
