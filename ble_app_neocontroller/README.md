@@ -2,7 +2,7 @@
 
 ### The hardware :
 
-#### Borads supported:
+#### Boards supported:
 
 The project supports 4 development boards :
 * [**The nRF52-DK (PCA10040)**](https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52-DK).
