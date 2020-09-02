@@ -1,4 +1,4 @@
 > Work in progress
 
-Make sure to add the Adafruit boards files to the **boards** folder located under  the ``components``folder in the **nRF5_SDK**, and add the **adafruit_nrf52832.h** and **adafruit_nrf52840.h** board files to the same folder.
+If you will be using one of the Adafruit boards, Make sure to add the boards files to the **boards** folder located under  the ``components``folder in the **nRF5_SDK**, also make sure to update the **board.h** file located under the same folder.
 
