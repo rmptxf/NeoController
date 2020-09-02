@@ -40,7 +40,7 @@ If not, you'll need to get a WS2812b RGB led module, like [**this one**](https:/
 
 > Make sure you use the **DI** pin for connecting it to you board.
 
-And you can change the pin in the **main.c** file for your board.
+And you can change the pin number in the **main.c** file for your board.
 
 ```c
 #if defined(BOARD_ADA40)
