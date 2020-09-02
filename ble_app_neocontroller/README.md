@@ -39,7 +39,7 @@ If you will be testing using the **Adafruit Feather nRF52840 Express (ADA40)**, 
 
 And it is already set in the firmware.
 
-If not, you'll need to get a WS2812b RGB led module, like [**this one**](https://www.sparkfun.com/products/13282) from **Sparfun**.
+If not, you'll need to get a WS2812b RGB led module, like [**this one**](https://www.sparkfun.com/products/13282) from **Sparfun**
 
 ![SparkFun RGB LED Breakout - WS2812B](https://github.com/rmptxf/NeoController/blob/master/assets/Ws2812B_PinsRev.jpg)
 
