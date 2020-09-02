@@ -28,8 +28,10 @@ If this is your first time working with the nRF5_SDK, i do recommend following m
 
 If you're using any of the Adafruit boards, make sure you head over to the [boards_files](https://github.com/rmptxf/NeoController/blob/master/boards_files) folder, and follow the included instruction.
 
-If you will be testing on the The Adafruit Feather nRF52840 Express (ADA40), you already have an on-board WS2812b ready to use.
+If you will be testing on **the Adafruit Feather nRF52840 Express (ADA40)**, you already have an on-board WS2812b ready to use.
+
 ![The Adafruit Feather nRF52840 Express](https://github.com/rmptxf/NeoController/blob/master/assets/Adafruit_Feather_nRF52840_Express.PNG)
+
 And it is already set in the firmware.
 
 If not, you'll need to get a WS2812b RGB led module, like [**this one**](https://www.sparkfun.com/products/13282) from **Sparfun**.
