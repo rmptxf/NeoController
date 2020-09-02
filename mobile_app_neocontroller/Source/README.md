@@ -4,7 +4,7 @@ The mobile app is built using the Ionic framework **v5**, with Angular as a fron
 
 ![ScreenShots](https://github.com/rmptxf/NeoController/blob/master/assets/ionic-logo.png)
 
-If this is your first time using ionic, please head over to the [**docs**](https://ionicframework.com/docs) to setup your development enviroment.
+If this is your first time using ionic, please head over to the [**ionic framework docs**](https://ionicframework.com/docs) to setup your development enviroment.
 
 ### Installation
 Download this repo or you can clone this repo using following command :
