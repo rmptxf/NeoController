@@ -39,3 +39,17 @@ If not, you'll need to get a WS2812b RGB led module, like [**this one**](https:/
 ![SparkFun RGB LED Breakout - WS2812B](https://github.com/rmptxf/NeoController/blob/master/assets/Ws2812B_PinsRev.jpg)
 
 > Make sure you use the **DI** pin for connecting it to you board.
+
+And you can change the pin in the **main.c** file for your board.
+
+```c
+#if defined(BOARD_ADA40)
+  #define neopixel_pin                  NEOPIXEL_PIN                            /**< ADA40 (Adafruit nrf52840 express) has a Neopixel on-board. */
+#elif defined(BOARD_PCA10056)
+  #define neopixel_pin                  16                                      /**< Neopixel pin number. */
+#elif defined(BOARD_ADA32)
+  #define neopixel_pin                  16                                      /**< Neopixel pin number. */
+#elif defined(BOARD_PCA10040)
+  #define neopixel_pin                  16                                      /**< Neopixel pin number. */
+#endif
+```
