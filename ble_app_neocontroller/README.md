@@ -15,7 +15,7 @@ The project supports 4 development boards :
 We're controlling a **WS2812b** RGB led, as it is one of Neopixels leds that supports volatges ranges from **3.3 to 5v**. So, no aditional components will be required to drive it with our **3.3v** based SOCs.
 There are other Neopixels type like the **WS2812** RGB led, this type resuires voltages that ranges from **5v to 7v**, so you may need to use a logic level converter circuit to drive it.
 
-> The [**datasheet**](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) for the **WS2812 says** : **0.7VDD** (VDD = 4.5～5.5V) for the **Minimum Input voltage level**. So it might still work, but not at full brightness.
+> The [**datasheet**](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) for the **WS2812** says : **0.7VDD** (VDD = 4.5～5.5V) for the **Minimum Input voltage level**. So it might still work, but not at full brightness.
 ![WS2812 Eelctricalk characteristics](https://github.com/rmptxf/NeoController/blob/master/assets/WS2812-Electrical_characteristics.PNG)
 
 ### The firmware :
@@ -57,11 +57,11 @@ And you can change the pin number in the **main.c** file for your board.
 #endif
 ```
 
-To flash the compiled firmware to custom develoment boards (example: Adafruit boards), you can use a nordic development kit.
+To flash the compiled firmware to custom development boards (example: **Adafruit boards**, mainly any nRF52 based board that doesn't have an on-board j-link debugger), you can use a nordic development kit.
 
 ![flashing the firmware to the adafruit nrf52840 via swd using the nrf52840-dk](https://github.com/rmptxf/NeoController/blob/master/assets/adafruit_nrf52840-flashing_via_swd.jpg)
 > 1: **The nRF52840-DK**. It can be any develoment board that have the on-board segger j-link.
 
-> 2: **The Adafruit Feather nRF52840 Express board**. If you will be using the nRF52832, you'll need to solder the SW connector or connect the SWD pins (back of the board as test points) to the P20 connector on the nRF52840-DK.
+> 2: **The Adafruit Feather nRF52840 Express board**. If you will be using the nRF52832, you'll need to solder the SWD connector or connect the SWD pins (back of the board as test points) to the **P20** connector on the nRF52840-DK.
 
 > 3: **The j-link cable**: Socket to socket, 2x5 pin, 1.27mm pitch. [**Example**](https://www.adafruit.com/product/1675).
