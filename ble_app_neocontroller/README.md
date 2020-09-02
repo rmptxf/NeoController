@@ -15,7 +15,8 @@ The project supports 4 development boards :
 We're controlling a **WS2812b** RGB led, as it is one of Neopixels leds that supports volatges ranges from **3.3 to 5v**. So, no aditional components will be required to drive it with our **3.3v** based SOCs.
 There are other Neopixels type like the **WS2812** RGB led, this type resuires voltages that ranges from **5v to 7v**, so you may need to use a logic level converter circuit to drive it.
 
-> The [**datasheet**](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) for the **WS2812 says** : **0.7VDD** for the **Minimum Input voltage level**. So it might still work, but not at full brightness.
+> The [**datasheet**](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) for the **WS2812 says** : **0.7VDD** (VDD = 4.5～5.5V) for the **Minimum Input voltage level**. So it might still work, but not at full brightness.
+[WS2812 Eelctricalk characteristics]
 
 ### The firmware :
 
@@ -24,7 +25,7 @@ The project is :
 * Uses the **SEGGER** toolchain.
 * Uses the **I2S** peripehral to drive the WS2812b RGB led.
 
-If this is your first time working with the nRF5_SDK, i do recommend following my [**getting started guide**](https://nrf5dev.com/tutorials/getting-started/).
+If this is your first time working with the nRF5_SDK, I do recommend following my [**getting started guide**](https://nrf5dev.com/tutorials/getting-started/).
 
 ### Testing the application :
 
