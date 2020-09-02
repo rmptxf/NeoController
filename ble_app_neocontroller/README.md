@@ -29,11 +29,6 @@ If this is your first time working with the nRF5_SDK, I do recommend first check
 
 ### Testing the application :
 
-<<<<<<< HEAD
-=======
->**Note :** Make sure you do a full erase to your board SOC, before uploading the new compiled firmware.
-
->>>>>>> 4566604b3423b09c7accc1fda6cffbaadd125484
 If you're using any of the Adafruit boards, make sure you head over to the [boards_files](https://github.com/rmptxf/NeoController/blob/master/boards_files) folder, and follow the included instruction.
 
 If you will be testing using the **Adafruit Feather nRF52840 Express (ADA40)**, you already have an on-board WS2812b ready to use.
@@ -65,3 +60,6 @@ And you can change the pin number in the **main.c** file for your board.
 To flash the compiled firmware to custom develoment boards (example: Adafruit boards), you can use a nordic development kit.
 
 ![flashing the firmware to the adafruit nrf52840 via swd using the nrf52840-dk](https://github.com/rmptxf/NeoController/blob/master/assets/adafruit_nrf52840-flashing_via_swd.jpg)
+> 1: **The nRF52840-DK**. It can be any develoment board that have the on-board segger j-link.
+> 2: **The Adafruit Feather nRF52840 Express board**. If you will be using the nRF52832, you'll need to solder the SW connector or connect the SWD pins (back of the board as test points) to the P20 connector on the nRF52840-DK.
+> 3: **The j-link cable**: Socket to socket, 2x5 pin, 1.27mm pitch. [**Example**](https://www.adafruit.com/product/1675).
