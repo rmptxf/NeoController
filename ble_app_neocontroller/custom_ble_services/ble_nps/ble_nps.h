@@ -89,7 +89,6 @@ struct ble_nps_s
     uint16_t                      service_handle;                 /**< Handle of Neocontroller Service (as provided by the BLE stack). */
  
     ble_gatts_char_handles_t      command_char_handles;           /**< Handles related to the command Value characteristic (Written to data). */   
-    ble_gatts_char_handles_t      rgb_value_handles;              /**< Handles related to the command Value characteristic (Read from data). */ 
 
     uint16_t                      conn_handle;                    /**< Handle of the current connection (as provided by the BLE stack, is BLE_CONN_HANDLE_INVALID if not in a connection). */
     uint8_t                       uuid_type;                      /**< Holds the Neopixel controller Service UUID type. */
