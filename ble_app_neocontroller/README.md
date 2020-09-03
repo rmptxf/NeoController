@@ -13,7 +13,7 @@ The project supports 4 development boards :
 #### RGB led :
 
 We're controlling a **WS2812b** RGB led, as it is one of Neopixels leds that supports volatges ranges from **3.3 to 5v**. So, no aditional components will be required to drive it with our **3.3v** based SOCs.
-There are other Neopixels type like the **WS2812** RGB led, this type resuires voltages that ranges from **5v to 7v**, so you may need to use a logic level converter circuit to drive it.
+There are other Neopixels type like the **WS2812** RGB led, this type requires voltages that ranges from **5v to 7v**, so you may need to use a logic level converter circuit to drive it.
 
 > The [**datasheet**](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) for the **WS2812** says : **0.7VDD** (VDD = 4.5～5.5V)->(0.7VDD = 3.15 ~ 3.85v) for the **Minimum Input voltage level**. So it might still work, but not at full brightness.
 ![WS2812 Eelctricalk characteristics](https://github.com/rmptxf/NeoController/blob/master/assets/WS2812-Electrical_characteristics.PNG)
