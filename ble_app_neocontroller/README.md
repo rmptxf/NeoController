@@ -62,7 +62,7 @@ And you can change the pin number in the **main.c** file for your board.
 To flash the compiled firmware to custom development boards (example: **Adafruit boards**, mainly any nRF52 based board that doesn't have an on-board j-link debugger), you can use a nordic development kit.
 
 ![flashing the firmware to the adafruit nrf52840 via swd using the nrf52840-dk](https://github.com/rmptxf/NeoController/blob/master/assets/adafruit_nrf52840-flashing_via_swd.jpg)
-> 1: **The nRF52840-DK**. It can be any develoment board that have the on-board segger j-link.
+> 1: **The nRF52840-DK**. It can be any develoment board that has an on-board segger j-link and a debug out port.
 
 > 2: **The Adafruit Feather nRF52840 Express board**. If you will be using the nRF52832, you'll need to solder the SWD connector or connect the SWD pins (back of the board as test points) to the **P20** connector on the nRF52840-DK.
 
