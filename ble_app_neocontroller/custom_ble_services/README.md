@@ -1,4 +1,4 @@
-This is the **ble_nps.c** and the **ble_nps.c** files for the custom ble service I designed to communicate to the nRF52 SOC for driving the neopixel.
+This is the custom ble service I designed to communicate to the nRF52 SOC for driving the neopixel.
 
 The **nps** (neo pixel) ble service has one characteristic which is the **command char**, it's the one used to send control data to the nRF52 SOC. 
 
