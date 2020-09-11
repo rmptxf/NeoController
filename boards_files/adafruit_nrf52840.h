@@ -35,7 +35,7 @@ extern "C" {
 #define BUTTON_DETECTION_TIME 50
 
 // UserSW
-#define BUTTON_1          11
+#define BUTTON_1          NRF_GPIO_PIN_MAP(1,2) 
 #define BUTTON_PULL       NRF_GPIO_PIN_PULLUP
 
 #define BUTTONS_ACTIVE_STATE 0
