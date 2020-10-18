@@ -21,7 +21,7 @@ There are other Neopixels type like the **WS2812** RGB led, this type requires v
 ### The firmware :
 
 The project is :
-* Compatible with nRF5_SDK versions starting from **v15.3**.
+* Compatible with nRF5_SDK versions : **v15.3**, **v16.0.0**.
 * Uses the **SEGGER** toolchain.
 * Uses the **I2S** peripehral to drive the WS2812b RGB led.
 
